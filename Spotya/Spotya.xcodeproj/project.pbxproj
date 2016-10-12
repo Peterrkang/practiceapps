@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5D55771DADAF9400A54720 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D55761DADAF9400A54720 /* Person.swift */; };
+		BD5D55791DADAFA100A54720 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D55781DADAFA100A54720 /* Event.swift */; };
+		BD5D557B1DADAFC100A54720 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D557A1DADAFC100A54720 /* Conversation.swift */; };
+		BD5D557D1DADB02700A54720 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D557C1DADB02700A54720 /* EventCell.swift */; };
+		BD5D557F1DADB06400A54720 /* ConvoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D557E1DADB06400A54720 /* ConvoCell.swift */; };
+		BD5D55811DADB09A00A54720 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D55801DADB09A00A54720 /* MapVC.swift */; };
+		BD5D55831DADB0B100A54720 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D55821DADB0B100A54720 /* ProfileVC.swift */; };
+		BD5D55851DADB0D300A54720 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D55841DADB0D300A54720 /* SearchVC.swift */; };
+		BD5D55871DADB11100A54720 /* ConvoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D55861DADB11100A54720 /* ConvoVC.swift */; };
 		BD62FDED1DAC59B900D37DD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD62FDEC1DAC59B900D37DD9 /* AppDelegate.swift */; };
-		BD62FDEF1DAC59B900D37DD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD62FDEE1DAC59B900D37DD9 /* ViewController.swift */; };
+		BD62FDEF1DAC59B900D37DD9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD62FDEE1DAC59B900D37DD9 /* MainVC.swift */; };
 		BD62FDF21DAC59B900D37DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD62FDF01DAC59B900D37DD9 /* Main.storyboard */; };
 		BD62FDF41DAC59B900D37DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD62FDF31DAC59B900D37DD9 /* Assets.xcassets */; };
 		BD62FDF71DAC59B900D37DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD62FDF51DAC59B900D37DD9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD5D55761DADAF9400A54720 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BD5D55781DADAFA100A54720 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BD5D557A1DADAFC100A54720 /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		BD5D557C1DADB02700A54720 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		BD5D557E1DADB06400A54720 /* ConvoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvoCell.swift; sourceTree = "<group>"; };
+		BD5D55801DADB09A00A54720 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		BD5D55821DADB0B100A54720 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		BD5D55841DADB0D300A54720 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		BD5D55861DADB11100A54720 /* ConvoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvoVC.swift; sourceTree = "<group>"; };
 		BD62FDE91DAC59B900D37DD9 /* Spotya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD62FDEC1DAC59B900D37DD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD62FDEE1DAC59B900D37DD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD62FDEE1DAC59B900D37DD9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		BD62FDF11DAC59B900D37DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD62FDF31DAC59B900D37DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD62FDF61DAC59B900D37DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +53,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD5D55721DADAEA700A54720 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD5D55761DADAF9400A54720 /* Person.swift */,
+				BD5D55781DADAFA100A54720 /* Event.swift */,
+				BD5D557A1DADAFC100A54720 /* Conversation.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BD5D55731DADAEB200A54720 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD5D557C1DADB02700A54720 /* EventCell.swift */,
+				BD5D557E1DADB06400A54720 /* ConvoCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BD5D55741DADAEBA00A54720 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD62FDEE1DAC59B900D37DD9 /* MainVC.swift */,
+				BD5D55801DADB09A00A54720 /* MapVC.swift */,
+				BD5D55821DADB0B100A54720 /* ProfileVC.swift */,
+				BD5D55841DADB0D300A54720 /* SearchVC.swift */,
+				BD5D55861DADB11100A54720 /* ConvoVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BD5D55751DADAEC500A54720 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
 		BD62FDE01DAC59B900D37DD9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +110,14 @@
 		BD62FDEB1DAC59B900D37DD9 /* Spotya */ = {
 			isa = PBXGroup;
 			children = (
+				BD5D55751DADAEC500A54720 /* Files */,
+				BD5D55741DADAEBA00A54720 /* Controllers */,
+				BD5D55731DADAEB200A54720 /* Views */,
+				BD5D55721DADAEA700A54720 /* Models */,
 				BD62FDEC1DAC59B900D37DD9 /* AppDelegate.swift */,
-				BD62FDEE1DAC59B900D37DD9 /* ViewController.swift */,
+				BD62FDF51DAC59B900D37DD9 /* LaunchScreen.storyboard */,
 				BD62FDF01DAC59B900D37DD9 /* Main.storyboard */,
 				BD62FDF31DAC59B900D37DD9 /* Assets.xcassets */,
-				BD62FDF51DAC59B900D37DD9 /* LaunchScreen.storyboard */,
 				BD62FDF81DAC59B900D37DD9 /* Info.plist */,
 			);
 			path = Spotya;
@@ -137,7 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD62FDEF1DAC59B900D37DD9 /* ViewController.swift in Sources */,
+				BD5D55791DADAFA100A54720 /* Event.swift in Sources */,
+				BD5D55771DADAF9400A54720 /* Person.swift in Sources */,
+				BD5D557F1DADB06400A54720 /* ConvoCell.swift in Sources */,
+				BD5D55831DADB0B100A54720 /* ProfileVC.swift in Sources */,
+				BD62FDEF1DAC59B900D37DD9 /* MainVC.swift in Sources */,
+				BD5D557B1DADAFC100A54720 /* Conversation.swift in Sources */,
+				BD5D55851DADB0D300A54720 /* SearchVC.swift in Sources */,
+				BD5D55871DADB11100A54720 /* ConvoVC.swift in Sources */,
+				BD5D55811DADB09A00A54720 /* MapVC.swift in Sources */,
+				BD5D557D1DADB02700A54720 /* EventCell.swift in Sources */,
 				BD62FDED1DAC59B900D37DD9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +370,7 @@
 				BD62FDFD1DAC59B900D37DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,10 +15,22 @@ class EventCell: UITableViewCell {
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func updateUI(event: Event){
+        eventTitle.text = Event.title
+        
+        let url = URL(string: partyRock.imageUrl)!
+        
+        DispatchQueue.global().async{
+            do {
+                let data = try Data(contentsOf: url)
+                DispatchQueue.global().sync {
+                    self.videoPreviewImage.image = UIImage(data: data)
+                }
+            } catch {
+                //handle error
+            }
+            
+        }
+        
     }
-
 }
